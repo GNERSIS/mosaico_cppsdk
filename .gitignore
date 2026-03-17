@@ -1,0 +1,28 @@
+# Build
+build/
+cmake-build-*/
+CMakeUserPresets.json
+
+# Conan
+conanbuild.sh
+conanrun.sh
+
+# Datasets (large binary files)
+datasets/*.mcap
+
+# IDE
+.idea/
+.vscode/
+compile_commands.json
+
+# Worktrees
+.worktrees/
+
+# Internal docs and reference
+docs/
+reference/
+system_prompt.md
+CLAUDE.md
+
+# OS
+.DS_Store
